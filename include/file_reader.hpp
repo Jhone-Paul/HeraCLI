@@ -2,6 +2,7 @@
 
 #include <H5Cpp.h>
 #include <string>
+#include <vector>
 
 class HeraFile {
 private:
@@ -17,6 +18,8 @@ public:
     int getNumBaselines();
     int getNumFrequencies();
     int getNumTimes();
+    int getNPols();
+    std::vector<double> getJulianDates();
 
 
     bool fileExists(const std::string& filename);
