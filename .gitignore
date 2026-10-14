@@ -1,0 +1,13 @@
+# Compiled files
+build/
+*.exe
+*.o
+*.obj
+
+# Scientific data
+*.uvh5
+*.h5
+*.hdf5
+
+# Editor files
+.vscode/
